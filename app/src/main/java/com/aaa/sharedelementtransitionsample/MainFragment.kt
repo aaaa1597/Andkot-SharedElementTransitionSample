@@ -22,6 +22,18 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.imageView1.setOnClickListener {
+            ImagesSheetDialogFragment().show(parentFragmentManager, "ImagesSheetDialogFragment")
+        }
+
+        binding.imageView2.setOnClickListener {
+            ImagesSheetDialogFragment().show(parentFragmentManager, "ImagesSheetDialogFragment")
+        }
+
+        binding.imageView3.setOnClickListener {
+            ImagesSheetDialogFragment().show(parentFragmentManager, "ImagesSheetDialogFragment")
+        }
     }
 
     override fun onDestroyView() {
