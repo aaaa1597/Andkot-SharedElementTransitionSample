@@ -1,0 +1,5 @@
+<resources>
+    <integer name="config_navAnimTime">150</integer>
+    <string name="app_name">SharedElementTransitionSample</string>
+    <string name="fragment_title">MimicBottomSheetFragment</string>
+</resources>
