@@ -8,7 +8,7 @@ SharedElementTransition Sample
 **開発中 しばしお待ちを**
 
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  tortoisegitの"ここへ切り替え/チェックアウト"って機能は、選択したコミットに戻すって機能であってる？
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ★★tortoisegitの"ここへ切り替え/チェックアウト"って機能は、選択したコミットに戻すって機能であってる？
 
 はい、その理解はほぼ合っていますが、もう少し正確に言うと、ブランチやタグ、またはコミットなどの任意の参照先に作業ツリーを移動する機能です。
 
@@ -25,7 +25,7 @@ SharedElementTransition Sample
 
 つまり、「選択したコミットに戻す」という操作は、「切り替え/チェックアウト」機能の利用方法の一つとして正しいです。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  「ここへ切り替え/チェックアウト」を実行したけど、やっぱ元のHEAD(リモートのHEAD)に戻したくなったらどうすればいい？
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ★★「ここへ切り替え/チェックアウト」を実行したけど、やっぱ元のHEAD(リモートのHEAD)に戻したくなったらどうすればいい？
 
 はい、元のブランチ（通常はリモートのHEADを追跡しているローカルブランチ）に戻すのは簡単です。
 
@@ -65,7 +65,7 @@ OK をクリックします。
 
 必要に応じて、元のブランチで一時退避 → 適用 を実行し、退避していた変更を作業ツリーに戻します。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   "開いたダイアログの「切り替え先」ドロップダウンリストから、元に戻したいブランチ名を選択します。（例: master や main、または作業していたfeature/Xなど）"が分かんない。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ★★"開いたダイアログの「切り替え先」ドロップダウンリストから、元に戻したいブランチ名を選択します。（例: master や main、または作業していたfeature/Xなど）"が分かんない。
 "main"と"remotes/origin/HEAD"と"remotes/origin/main"がある。どれを選べばいい？
 
 おっしゃる状況では、通常は「main」を選択すれば大丈夫です。
@@ -91,7 +91,7 @@ OKをクリックします。
 
 これで、リポジトリの状態が「detached HEAD」から「mainブランチの最新コミット」に戻ります。
 
-ありがとー。助かったー。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ★★ありがとー。助かったー。
 
 どういたしまして！お役に立てて嬉しいです。
 
